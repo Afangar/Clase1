@@ -5,17 +5,21 @@
   }
   ul {
     display: inline-block;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
+    float: right;
+    position: relative;
+    top: 65px;
+    margin-right: 20px;
     li {
       float: left;
+      list-style: none;
     }
     li a {
       display: block;
-      color: #666;
+      color: rgb(41, 18, 18);
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -25,8 +29,8 @@
     }
     li a.active {
       color: white;
-      background-color: rgb(78, 78, 55);
+      background-color: rgb(134, 62, 33);
     }
   }
-  background-color: #dddddd;
+  background-color: rgb(27, 27, 139);
 }
