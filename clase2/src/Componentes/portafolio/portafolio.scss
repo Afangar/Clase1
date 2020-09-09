@@ -1,38 +1,90 @@
 .portafolio {
   text-align: center;
   background-color: rgb(255, 255, 255);
-  padding-top: 4rem;
-  padding-bottom: 5rem;
+  padding: 6rem;
   .titulo {
     font-size: 3rem;
     line-height: 2.5rem;
   }
   .primerasimg {
+    margin-bottom: 3rem !important;
+    display: flex;
+    position: relative;
+    left: 230px;
     .cabaña {
-      width: 319.98px;
+      width: 271.98px;
       height: 196.42px;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      margin-right: 1.5rem;
+      border-radius: 0.5rem;
+      background-color: rgb(186, 76, 99);
+    }
+    .cabaña:hover {
+      background-color: blanchedalmond;
     }
     .pastel {
-      width: 319.98px;
+      width: 271.98px;
       height: 196.42px;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      margin-right: 1.5rem;
+      border-radius: 0.5rem;
+      background-color: rgb(31, 164, 182);
+    }
+    .pastel:hover {
+      background-color: blanchedalmond;
     }
     .feria {
-      width: 319.98px;
+      width: 271.98px;
       height: 196.42px;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      border-radius: 0.5rem;
+      background-color: rgb(19, 15, 15);
+    }
+    .feria:hover {
+      background-color: blanchedalmond;
     }
   }
   .segundasimg {
+    display: flex;
+    position: relative;
+    left: 230px;
     .control {
-      width: 319.98px;
+      width: 271.98px;
       height: 196.42px;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      margin-right: 1.5rem;
+      border-radius: 0.5rem;
+      background-color: rgb(29, 131, 193);
+    }
+    .control:hover {
+      background-color: blanchedalmond;
     }
     .caja {
-      width: 319.98px;
+      width: 271.98px;
       height: 196.42px;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      margin-right: 1.5rem;
+      border-radius: 0.5rem;
+      background-color: rgb(16, 55, 181);
+    }
+    .caja:hover {
+      background-color: blanchedalmond;
     }
     .submarino {
-      width: 319.98px;
+      width: 271.98px;
       height: 196.42px;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      border-radius: 0.5rem;
+      background-color: rgb(204, 178, 163);
+    }
+    .submarino:hover {
+      background-color: blanchedalmond;
     }
   }
 }

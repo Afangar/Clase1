@@ -8,7 +8,7 @@
   ul {
     padding: 0;
     overflow: hidden;
-    background-color: rgb(27, 27, 139);
+    background-color: rgb(44, 62, 80);
     float: right;
     position: relative;
     top: 40px;
@@ -25,12 +25,14 @@
       text-decoration: none;
     }
     li a:hover:not(.active) {
-      background-color: rgb(134, 62, 33);
+      background-color: rgb(145, 120, 38);
+      border-radius: 0.5rem;
     }
     li a.active {
       color: white;
-      background-color: rgb(134, 62, 33);
+      border-radius: 0.5rem;
+      background-color: rgb(145, 120, 38);
     }
   }
-  background-color: rgb(27, 27, 139);
+  background-color: rgb(44, 62, 80);
 }

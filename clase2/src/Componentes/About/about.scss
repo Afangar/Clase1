@@ -1,0 +1,49 @@
+.about {
+  text-align: center;
+  background-color: rgb(26, 188, 156);
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  .titulo {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: white;
+  }
+  .eldi {
+    display: flex;
+    margin-right: 80px;
+    .parrafo1 {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: white;
+      position: relative;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      margin-left: 400px;
+    }
+    .parrafo2 {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: white;
+      position: relative;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      margin-right: 400px;
+    }
+  }
+  .eldi2 {
+    display: flex;
+    position: relative;
+    left: 690px;
+    .descarga {
+      color: white;
+      border: solid;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      font-size: 1.5rem;
+    }
+    a:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
