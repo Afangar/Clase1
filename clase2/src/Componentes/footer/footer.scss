@@ -1,0 +1,64 @@
+.footer {
+  text-align: center;
+  background-color: rgb(44, 62, 80);
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  color: white;
+  .di {
+    display: flex;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    .location {
+      margin-bottom: 1.5rem;
+      position: relative;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      width: 100%;
+    }
+    .web {
+      margin-bottom: 1.5rem;
+      position: relative;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      width: 100%;
+      .facebook {
+        width: 52px;
+        height: 52px;
+      }
+      .twitter {
+        width: 52px;
+        height: 52px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+      }
+      .linkedin {
+        width: 52px;
+        height: 52px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+      }
+      .reddit {
+        width: 52px;
+        height: 52px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+      }
+    }
+    .free {
+      margin-bottom: 1.5rem;
+      position: relative;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      width: 100%;
+      .p1 {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+    }
+  }
+}
