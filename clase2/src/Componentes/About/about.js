@@ -27,7 +27,9 @@ let About = () => {
 
       <div>
         <div className="eldi2">
-          <a className="descarga">Click To Free Download</a>
+          <a className="descarga" href=" ">
+            Click To Free Download
+          </a>
         </div>
       </div>
     </section>

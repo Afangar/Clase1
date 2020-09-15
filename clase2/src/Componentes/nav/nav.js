@@ -7,11 +7,11 @@ let nav = () => {
     <div className="nav">
       <nav>
         <div className="logo">
-          <img src={logo}></img>
+          <img src={logo} alt="logo"></img>
         </div>
         <ul>
           <li>
-            <a class="active" href="#portafolio">
+            <a className="active" href="#portafolio">
               PORTAFOLIO
             </a>
           </li>
