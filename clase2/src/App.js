@@ -7,7 +7,7 @@ import About from "./Componentes/About/about";
 import Contact from "./Componentes/contact/contact";
 import Footer from "./Componentes/footer/footer";
 import Copy from "./Componentes/Copyright/copy";
-import Api from "./Componentes/Api/indes";
+import Api from "./Componentes/Api";
 
 function App() {
   return (
