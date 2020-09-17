@@ -1,0 +1,21 @@
+.api {
+  background-image: url(/img/fondopokemon.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 6rem;
+  .titulo {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+  .link {
+    text-align: center;
+  }
+  .ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

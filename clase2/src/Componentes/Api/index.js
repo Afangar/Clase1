@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import "../Button/lista.scss";
+import "../Api/Api.scss";
 
 const Api = () => {
   const [pokedex, setPokedex] = useState({});
@@ -18,17 +20,15 @@ const Api = () => {
     }
   }, [pokedex]);
 
-  useEffect(() => {
-    console.log(pokemons);
-  });
-
   return (
-    <div>
-      <h1> Api result</h1>
-      <p>{pokedex.pokedex ? pokedex.pokedex : "aun no"}</p>
-      <ul>
+    <div className="api">
+      <h1 className="titulo"> Api Result</h1>
+      <p className="link">{pokedex.pokedex ? pokedex.pokedex : "aun no"}</p>
+      <ul className="ul">
         {pokemons.results
-          ? pokemons.results.map((item) => <li>{item.name}</li>)
+          ? pokemons.results.map((item) => (
+              <li className="lista">{item.name}</li>
+            ))
           : ""}
       </ul>
     </div>

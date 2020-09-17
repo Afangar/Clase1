@@ -9,8 +9,8 @@
   .primerasimg {
     margin-bottom: 3rem !important;
     display: flex;
-    position: relative;
-    left: 230px;
+    flex-wrap: wrap;
+    justify-content: center;
     .cabaña {
       width: 271.98px;
       height: 196.42px;
@@ -49,8 +49,8 @@
   }
   .segundasimg {
     display: flex;
-    position: relative;
-    left: 230px;
+    flex-wrap: wrap;
+    justify-content: center;
     .control {
       width: 271.98px;
       height: 196.42px;
